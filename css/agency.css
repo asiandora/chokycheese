@@ -383,7 +383,7 @@ section h3.section-subheading {
   position: absolute;
   content: "";
   width: 2px;
-  background-color: #f1f1f1;
+  background-color: #ffd300;
   left: 40px;
   margin-left: -1.5px;
 }
@@ -429,7 +429,7 @@ section h3.section-subheading {
   background-color: #fed136;
   color: white;
   border-radius: 100%;
-  border: 7px solid #f1f1f1;
+  border: 7px solid #ffd300;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
@@ -559,7 +559,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #000000;
+  background-color: #ffd300;
   background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -734,11 +734,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #fed136;
+  background: #ffd300;
 }
 ::selection {
   text-shadow: none;
-  background: #fed136;
+  background: #ffd300;
 }
 img::selection {
   background: transparent;
@@ -747,5 +747,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #fed136;
+  webkit-tap-highlight-color: #ffd300;
 }
