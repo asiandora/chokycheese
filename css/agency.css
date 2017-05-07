@@ -10,7 +10,7 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Assistant", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
   color: #222222;
@@ -19,7 +19,7 @@ body {
   color: #fed136;
 }
 p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.75;
 }
 p.large {
@@ -247,7 +247,7 @@ header .intro-text {
   padding-bottom: 150px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Assistant", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
@@ -267,7 +267,7 @@ header .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "Assistant", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
@@ -285,16 +285,23 @@ header .intro-text .intro-heading {
 section {
   padding: 100px 0;
 }
+
+section p.section-subheading {
+  font-size: 21px;
+  font-family: "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-weight: 400;
+}
+
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
 }
 section h3.section-subheading {
-  font-size: 16px;
-  font-family: "Assistant Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-family: "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
-  font-style: italic;
   font-weight: 400;
   margin-bottom: 75px;
 }
@@ -359,7 +366,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Assistant Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Quattrocento Sans Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
@@ -682,7 +689,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: "Assistant Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Quattrocento Sans Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }
