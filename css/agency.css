@@ -287,7 +287,7 @@ section {
 }
 
 section p.section-subheading {
-  font-size: 21px;
+  font-size: 18px;
   font-family: "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-weight: 400;
@@ -299,7 +299,7 @@ section h2.section-heading {
   margin-bottom: 15px;
 }
 section h3.section-subheading {
-  font-size: 21px;
+  font-size: 18px;
   font-family: "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-weight: 400;
