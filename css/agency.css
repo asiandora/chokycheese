@@ -314,6 +314,23 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
+
+.service-border {
+  border-style:dashed;
+  border-width:6px;
+  padding:50px;
+  margin:20px;
+  border-color:#ffd300;
+}
+
+.service-vid {
+  border: 10px solid transparent;
+  -moz-border-image: -moz-linear-gradient(left, # 0%, # 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, # 0%, # 100%);
+  border-image: linear-gradient(to right, # 0%, # 100%);
+  border-image-slice: 1;
+}
+
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
