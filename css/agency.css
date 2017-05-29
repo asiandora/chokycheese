@@ -15,6 +15,12 @@ body {
 .text-muted {
   color: #222222;
 }
+
+.text-blog {
+  text-align:left;
+  font-size:18px;
+}
+
 .text-primary {
   color: #fed136;
 }
@@ -243,8 +249,8 @@ header {
   color: white;
 }
 header .intro-text {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 170px;
+  padding-bottom: 170px;
 }
 header .intro-text .intro-lead-in {
   font-family: "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
