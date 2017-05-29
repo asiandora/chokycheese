@@ -329,6 +329,11 @@ section h3.section-subheading {
   border-color:#ffd300;
 }
 
+.service-border-individual {
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
 .service-vid {
   border: 10px solid transparent;
   -moz-border-image: -moz-linear-gradient(left, # 0%, # 100%);
