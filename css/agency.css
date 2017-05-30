@@ -21,6 +21,10 @@ body {
   font-size:18px;
 }
 
+.text-caption {
+  font-size:13px;
+  color:#939393;
+}
 .text-primary {
   color: #fed136;
 }
@@ -324,13 +328,13 @@ section h3.section-subheading {
 .service-border {
   border-style:dashed;
   border-width:6px;
-  padding:50px;
+  padding:15px;
   margin:20px;
   border-color:#ffd300;
 }
 
 .service-border-individual {
-  padding-top:20px;
+  padding-top:30px;
   padding-bottom:20px;
 }
 
@@ -341,6 +345,7 @@ section h3.section-subheading {
   border-image: linear-gradient(to right, # 0%, # 100%);
   border-image-slice: 1;
 }
+
 
 .rainbow {
    /* Chrome, Safari, Opera */
