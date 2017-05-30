@@ -8,6 +8,19 @@
   src: url("vendor/bootstrap/fonts/kankin-font.otf");
 }
 
+header {
+  background-image: url('../img/header-bg.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+
 body {
   overflow-x: hidden;
   font-family: "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -240,21 +253,9 @@ fieldset[disabled] .btn-xl.active {
     font-size: 1.5em;
   }
 }
-header {
-  background-image: url('../img/header-bg.png');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: white;
-}
+
 header .intro-text {
-  padding-top: 10px;
-  padding-bottom:50px;
+  padding: 30px 0 50px 0;
 }
 header .intro-text .intro-lead-in {
   font-family: "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -273,8 +274,7 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding: 100px 0 200px 0;
   }
   header .intro-text .intro-lead-in {
     font-family: "Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -303,8 +303,7 @@ header .intro-text .intro-heading {
         display:none;
     }
     header.intro-text {
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding: 20px 0 20px 0;
     }
 }
 
@@ -321,8 +320,7 @@ section p.section-subheading {
 
 section h2.section-heading {
   font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
+  margin: 0 0 15px 0;
 }
 section h3.section-subheading {
   font-size: 18px;
