@@ -246,11 +246,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header .intro-text {
+  position: relative;
   padding: 25px 0 50px 0;
 }
 
 @media (min-width: 768px) {
   header .intro-text {
+    position: relative;
     padding: 200px 0 200px 0;
   }
 }
@@ -263,9 +265,6 @@ header .intro-text {
 @media screen and (max-width:769px) {
     .hidden_mobile {
         display:none;
-    }
-    header.intro-text {
-      padding: 20px 0 20px 0;
     }
 }
 
