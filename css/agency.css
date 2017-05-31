@@ -253,6 +253,13 @@ header .intro-text {
 @media (min-width: 768px) {
   header .intro-text {
     position: relative;
+    padding: 100px 0 200px 0;
+  }
+}
+
+@media (min-width: 1028px) {
+  header .intro-text {
+    position: relative;
     padding: 200px 0 200px 0;
   }
 }
